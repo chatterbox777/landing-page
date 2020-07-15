@@ -37,3 +37,33 @@ header span {
   font-family: "Exo", sans-serif;
   font-size: 16px;
 }
+
+.section-two {
+  height: 969px;
+}
+
+.section-two .design {
+  font-family: "Exo", sans-serif;
+}
+.section-two .design h2 {
+  font-size: 16px;
+  color: #ff6d6d;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.section-two .design h1 span {
+  color: #ff6d6d;
+}
+.section-two .design span {
+  max-width: 570px;
+}
+
+.section-two .figure {
+  background: lightgrey;
+  position: relative;
+  overflow: hidden;
+}
+.section-two .triangle-block {
+  position: absolute;
+  z-index: 1;
+}
