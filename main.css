@@ -1,0 +1,39 @@
+* {
+}
+
+header {
+  height: 969px;
+  background-image: url("./assets/header-bg.png");
+  background-size: cover;
+}
+header h1 {
+  text-align: center;
+  font-family: "Exo", sans-serif;
+  font-size: 4rem;
+}
+header span {
+  color: #777779;
+}
+.play-button {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: #8185a3;
+  box-shadow: none !important;
+  cursor: pointer;
+}
+.play-button img {
+  padding-left: 18px;
+  padding-top: 15px;
+  color: white;
+}
+
+.try-now-btn {
+  background: #ff6d6d !important;
+  width: 190px !important;
+  height: 50px !important;
+  text-transform: uppercase;
+  color: white !important;
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
+}
