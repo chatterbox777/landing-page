@@ -38,12 +38,10 @@ header span {
   font-size: 16px;
 }
 
-.section-two {
-  height: 969px;
-}
-
 .section-two .design {
   font-family: "Exo", sans-serif;
+  padding-top: 185px !important;
+  padding-bottom: 168px !important;
 }
 .section-two .design h2 {
   font-size: 16px;
@@ -51,11 +49,16 @@ header span {
   text-transform: uppercase;
   font-weight: bold;
 }
+.section-two .design h1 {
+  font-weight: bold;
+}
 .section-two .design h1 span {
-  color: #ff6d6d;
+  color: #ff6d6d !important;
 }
 .section-two .design span {
   max-width: 570px;
+  color: #717171 !important;
+  font-weight: bold;
 }
 
 .section-two .figure {
@@ -108,4 +111,32 @@ header span {
     top: -10%;
     transform: rotate(13deg);
   }
+}
+
+.section-three {
+  font-family: "Exo", sans-serif;
+  padding-top: 223px;
+  background-image: url("./assets/section3bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+}
+.section-three_main {
+  margin-bottom: 95px;
+}
+.section-three_main h1 {
+  font-weight: bold;
+}
+.section-three_main h2 {
+  color: #ff6d6d;
+}
+
+.section-three .row {
+  margin: 0 !important;
+}
+.section-three .row h2 {
+  font-weight: bold;
+}
+.section-three .row span {
+  font-weight: bold;
 }
