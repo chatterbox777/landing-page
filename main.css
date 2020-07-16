@@ -63,7 +63,49 @@ header span {
   position: relative;
   overflow: hidden;
 }
-.section-two .triangle-block {
+.section-two .triangle-block img {
   position: absolute;
-  z-index: 1;
+  left: -22%;
+  top: -10%;
+  transform: rotate(13deg);
+}
+.section-two .row {
+  margin: 0 !important;
+}
+
+@media screen and (max-width: 991px) and (min-width: 552px) {
+  .section-two .row {
+    position: relative !important;
+  }
+  .section-two .figure {
+    background: lightgrey;
+    position: absolute;
+    overflow: hidden;
+    height: 500px;
+    z-index: -1;
+  }
+  .section-two .triangle-block img {
+    position: absolute;
+    left: -22%;
+    top: -10%;
+    transform: rotate(13deg);
+  }
+}
+@media screen and (max-width: 551px) {
+  .section-two .row {
+    position: relative !important;
+  }
+  .section-two .figure {
+    background: lightgrey;
+    position: absolute;
+    overflow: hidden;
+    height: 100%;
+    z-index: -1;
+  }
+  .section-two .triangle-block img {
+    position: absolute;
+    left: -22%;
+    top: -10%;
+    transform: rotate(13deg);
+  }
 }
