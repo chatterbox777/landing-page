@@ -76,17 +76,18 @@ header span {
   margin: 0 !important;
 }
 
-@media screen and (max-width: 991px) and (min-width: 552px) {
-  .section-two .row {
-    position: relative !important;
-  }
+@media screen and (max-width: 991px) {
   .section-two .figure {
     background: lightgrey;
     position: absolute;
     overflow: hidden;
-    height: 500px;
+    height: 969px;
     z-index: -1;
   }
+  .section-two .row {
+    position: relative !important;
+  }
+
   .section-two .triangle-block img {
     position: absolute;
     left: -22%;
@@ -94,22 +95,10 @@ header span {
     transform: rotate(13deg);
   }
 }
-@media screen and (max-width: 551px) {
-  .section-two .row {
-    position: relative !important;
-  }
-  .section-two .figure {
-    background: lightgrey;
-    position: absolute;
-    overflow: hidden;
-    height: 100%;
-    z-index: -1;
-  }
-  .section-two .triangle-block img {
-    position: absolute;
-    left: -22%;
-    top: -10%;
-    transform: rotate(13deg);
+
+@media screen and (max-width: 992px) {
+  .section-three {
+    background: #f6f5f3;
   }
 }
 
@@ -119,7 +108,9 @@ header span {
   background-image: url("./assets/section3bg.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 0px -40px;
   height: 900px;
+  background-color: #f6f5f3;
 }
 .section-three_main {
   margin-bottom: 95px;
@@ -139,4 +130,66 @@ header span {
 }
 .section-three .row span {
   font-weight: bold;
+}
+.section-three .row div {
+  margin-bottom: 183px;
+}
+@media screen and (max-width: 990px) {
+  .section-three {
+    background-color: #f6f5f3;
+    height: fit-content;
+    background-position: 0px -40px;
+  }
+  .section-two .design {
+    padding-bottom: 0px !important;
+  }
+}
+
+.description {
+  font-family: "Exo", sans-serif;
+  padding-top: 90px;
+  padding-bottom: 105px;
+  position: relative;
+  overflow: hidden;
+}
+.description .row {
+  margin: 0 !important;
+}
+
+.description__image__macbook img {
+  width: 100%;
+}
+.description__image__triangle {
+  position: absolute;
+  left: -39%;
+  top: -14%;
+  transform: scaleX(-1);
+  z-index: -1;
+}
+.description__text h1 {
+  font-size: 40px;
+}
+.description__text h1 span {
+  color: #ff6d6d;
+}
+.description__text h2 {
+  color: #ff6d6d;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+  .description__image__triangle {
+    position: absolute;
+    left: -70%;
+    top: -23%;
+    transform: scaleX(-1);
+    z-index: -1;
+  }
+  .description__text h1 span {
+    color: #ffff;
+  }
+  .description__text h2 {
+    color: #ffff;
+    font-size: 16px;
+  }
 }
