@@ -109,7 +109,6 @@ header span {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0px -40px;
-  height: 900px;
   background-color: #f6f5f3;
 }
 .section-three_main {
@@ -166,8 +165,12 @@ header span {
   transform: scaleX(-1);
   z-index: -1;
 }
+.description__text {
+  font-weight: bold;
+}
 .description__text h1 {
   font-size: 40px;
+  font-weight: 600;
 }
 .description__text h1 span {
   color: #ff6d6d;
@@ -175,6 +178,10 @@ header span {
 .description__text h2 {
   color: #ff6d6d;
   font-size: 16px;
+  font-weight: 600;
+}
+.description__text p {
+  color: #717171;
 }
 
 @media screen and (max-width: 1024px) {
@@ -191,5 +198,44 @@ header span {
   .description__text h2 {
     color: #ffff;
     font-size: 16px;
+  }
+}
+.clients {
+  background-image: url("./assets/bgClients.png");
+  background-color: grey;
+  color: white;
+  background-size: cover;
+}
+.clients .row.clients-body {
+  margin: 0 !important;
+}
+.clients__items {
+  margin-top: 106px;
+  margin-bottom: 103px;
+}
+.clients__items h4 {
+  font-size: 22px;
+}
+.clients__items h5 {
+  color: #ff6d6d;
+  font-size: 16px;
+  font-family: "Exo", sans-serif;
+}
+.clients__items p {
+  font-family: "Exo", sans-serif;
+  font-style: italic;
+  font-size: regular;
+  font-size: 16px;
+  color: #b3b3b5;
+}
+
+@media screen and (max-width: 991px) {
+  .clients__items.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .clients__logos.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
   }
 }
