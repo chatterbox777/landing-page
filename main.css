@@ -362,9 +362,9 @@ footer .image__triangle {
 @media screen and (min-width: 1537px) {
   footer .image__triangle {
     position: absolute;
-    right: -64%;
-    top: -202%;
-    transform: rotate(-272deg);
+    right: -67%;
+    top: -182%;
+    transform: rotate(-264deg);
     z-index: -1;
   }
 }
