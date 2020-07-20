@@ -68,9 +68,9 @@ header span {
 }
 .section-two .triangle-block img {
   position: absolute;
-  left: -22%;
-  top: -10%;
-  transform: rotate(13deg);
+  left: -5%;
+  top: 9%;
+  transform: rotate(10deg);
 }
 .section-two .row {
   margin: 0 !important;
@@ -160,7 +160,7 @@ header span {
 }
 .description__image__triangle {
   position: absolute;
-  left: -39%;
+  left: -44%;
   top: -14%;
   transform: scaleX(-1);
   z-index: -1;
@@ -362,9 +362,9 @@ footer .image__triangle {
 @media screen and (min-width: 1537px) {
   footer .image__triangle {
     position: absolute;
-    right: -51%;
-    top: -182%;
-    transform: rotate(-264deg);
+    right: -64%;
+    top: -202%;
+    transform: rotate(-272deg);
     z-index: -1;
   }
 }
@@ -464,7 +464,15 @@ footer input {
     z-index: -1;
   }
 }
-@media screen and (min-width: 1728px) and (max-width: 2560px) {
+@media screen and (min-width: 1728px) and (max-width: 1919px) {
+  .polygon {
+    position: absolute;
+    top: -6%;
+    left: 21%;
+    z-index: -1;
+  }
+}
+@media screen and (min-width: 1920px) and (max-width: 2560px) {
   .polygon {
     position: absolute;
     top: -6%;
