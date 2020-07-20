@@ -476,7 +476,7 @@ footer input {
   .polygon {
     position: absolute;
     top: -6%;
-    left: 13%;
+    left: 16%;
     z-index: -1;
   }
 }
